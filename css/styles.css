@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'IM Fell Double Pica', serif;
+}
+
+#welcome>h1 {
+    font-family: 'Pacifico', cursive;
+}
