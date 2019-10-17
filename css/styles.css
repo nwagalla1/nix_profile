@@ -1,10 +1,30 @@
 body {
     margin: 0;
     border: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'IM Fell Double Pica', serif;
 }
 
-#welcome>h1 {
+#welcome>.mine>h1 {
     font-family: 'Pacifico', cursive;
+    color: rgb(247, 253, 251);
+    font-size: 2.2em;
+}
+#welcome {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("/images/backlit-dawn-desert-756774.jpg") no-repeat center center/cover;
+    height: 80vh;
+}
+.mine {
+    text-align: center;
+    margin: 0 auto;
+}
+#welcome>.mine>h2 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    color: rgb(247, 253, 251);;
+}
+#welcome>.mine>h2>.name {
+    color:red;
+    font-weight: 600;
 }
