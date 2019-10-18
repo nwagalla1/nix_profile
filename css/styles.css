@@ -27,7 +27,7 @@ body {
     color: rgb(155, 243, 231);;
 }
 #welcome>.mine>h2>.name {
-    color:rgb(202, 137, 39);
+    color: rgb(238, 51, 51);
     font-weight: 600;
 }
 #welcome>.mine>h3 {
@@ -68,9 +68,14 @@ ul {
     text-transform: uppercase;
     height: 5px;
     margin-top: 0px;
+    color: rgb(238, 51, 51);
 }
 #about>.mem>h2 {
     font-family: 'Sacramento', cursive;
     font-size: 2em;
+}
+#about>.more {
+    width: 550px;
+    text-align: justify;
 }
   
